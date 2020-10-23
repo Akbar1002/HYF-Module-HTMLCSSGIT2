@@ -1,0 +1,104 @@
+.page{
+    width:1080px;
+    margin:auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: royalblue;
+    padding: 20px;
+
+}
+
+#name{
+    font-size: 30px;
+}
+
+img {
+    height:250px;
+    width:70;
+    float:right;
+    padding:40px;
+    padding-top: 20px;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+.info {
+    float:left;
+    padding:20px;
+    margin:10px;   
+
+}
+
+
+.section1{
+    padding:20px ;
+    margin:10px;
+}
+.section2 {
+    display:flex;
+    border:2px burlywood solid;
+    padding: 20px;
+    margin:10px;   
+}
+
+.sec-left2{
+    margin-left: 5%;
+}
+
+.sec-right2{
+    margin-left: 20%;
+}
+
+
+.section3{
+    display:flex;
+    border:2px burlywood solid;
+    padding: 20px;
+    margin:10px; 
+}
+
+.sec-left3{
+    margin-left: 5%;
+}
+
+.sec-right3{
+    margin-left: 20%;
+}
+
+
+
+.section4{
+    display:flex;
+    border:2px burlywood solid;
+    padding: 20px;
+    margin:10px; 
+
+}
+.sec-left4{
+    margin-left: 5%;
+}
+
+.sec-right4{
+    margin-left: 20%;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    margin:10px; 
+}
