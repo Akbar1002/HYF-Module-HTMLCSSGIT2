@@ -21,21 +21,10 @@ img {
 
 }
 
-h1 {
+.main {
     font-size: 20px;
 }
 
-h2 {
-    font-size: 20px;
-}
-
-h3 {
-    font-size: 20px;
-}
-
-h4 {
-    font-size: 20px;
-}
 
 .info {
     float:left;
