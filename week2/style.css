@@ -62,8 +62,8 @@ h3{
     transition-duration: 2s;
   }
 
-  #grid-floats .grid-item :nth-child(1){
-    width:45%;}
+  #grid-floats .grid-item:nth-child(1){
+    width:47%;}
  
 
 
@@ -101,8 +101,8 @@ img{
     
   }
 
-  #grid-flex .grid-item :nth-child(1) {
-      width:47%;
+  #grid-flex .grid-item:nth-child(1) {
+      flex-basis:47%;
   }
 
   #grid-flex :hover{
@@ -114,9 +114,11 @@ img{
 
 
     @media screen and (max-width:600px){
-        #grid-floats .grid-item {width:95%;
+        #grid-floats .grid-item {width:95%;}
+        #grid-floats .grid-item:nth-child(1){
+            width:95%;}
         }
-    }
+    
 
 
     @media screen and(min-width:768; max-width:1024;)
@@ -128,6 +130,8 @@ img{
         #grid-flex .grid-item {
             flex-basis: 95%;
         }
+        #grid-flex .grid-item:nth-child(1) {
+            flex-basis:97%;}
     }
 
     @media screen and(min-width:768; max-width:1024;)
