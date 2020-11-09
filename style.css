@@ -38,7 +38,7 @@ h2{
 
 h3{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: ;
+
 }
 
 #grid-floats {
@@ -52,8 +52,9 @@ h3{
 
 
 #grid-floats .grid-item {
-    width: 23%;
+    
     float: left;
+    width:23%;
     height: 350px;
     padding: 12px;
     border-radius:10px;
@@ -69,8 +70,7 @@ h3{
 
 
 
-
-  #grid-floats :hover{
+#grid-floats :hover{
       transform: scale(1.1);
   }
 
@@ -121,8 +121,15 @@ img{
     
 
 
-    @media screen and(min-width:768; max-width:1024;)
-    {  #grid-floats .grid-item {flex-basis:40%;} }
+    @media screen and (min-width:767px) and (max-width:1024px)
+    {  
+        #grid-floats .grid-item {
+        width:calc(33% - 30px);
+        height:500px;
+        
+
+      } 
+    }
 
 
 
